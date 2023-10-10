@@ -9,7 +9,7 @@ public class App {
     }
     public void run() {
         System.out.println("== 명언 앱 ==");
-
+        long i = 1;
         Scanner sc = new Scanner(System.in);
         while(true) {
             System.out.print("명령 >> ");
@@ -25,9 +25,9 @@ public class App {
                 String B = sc.nextLine();
                 System.out.println("명언 >> " + A);
                 System.out.println("작가 >> " + B);
-                System.out.println("1번 명언이 등록되었습니다.");
-                break;
+                System.out.printf("%d번 명언이 등록되었습니다.", i);
+                i++;
+                }
             }
         }
     }
-}
