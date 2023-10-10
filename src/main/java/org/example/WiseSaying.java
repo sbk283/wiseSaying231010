@@ -1,22 +1,22 @@
 package org.example;
 
 public class WiseSaying {
-    private Long id;
+    private long Id;
     private String author;
     private String content;
 
-    WiseSaying(Long id, String author, String content){
-        this.id = id;
+    WiseSaying(long Id,String author,String content){
+        this.Id = Id;
         this.author = author;
         this.content = content;
     }
-    public long getId() {
-        return this.id;
+    public long getId(){
+        return this.Id;
     }
-    public String getAuthor() {
+    public String getAuthor(){
         return this.author;
     }
-    public String getContent() {
+    public String getContent(){
         return this.content;
     }
 }
