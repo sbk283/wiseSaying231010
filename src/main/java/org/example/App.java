@@ -19,12 +19,13 @@ public class App {
                 System.out.println(cmd);
                 break;
             } else if (cmd.equals("등록")) {
-                System.out.print("작가 >> ");
-                String A = sc.nextLine();
                 System.out.print("명언 >> ");
+                String A = sc.nextLine();
+                System.out.print("작가 >> ");
                 String B = sc.nextLine();
-                System.out.println("작가 >> " + A);
-                System.out.println("명언 >> " + B);
+                System.out.println("명언 >> " + A);
+                System.out.println("작가 >> " + B);
+                System.out.println("1번 명언이 등록되었습니다.");
                 break;
             }
         }
