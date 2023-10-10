@@ -18,16 +18,15 @@ public class App {
             if (cmd.equals("종료")) {
                 System.out.println(cmd);
                 break;
+            } else if (cmd.equals("등록")) {
+                System.out.print("작가 >> ");
+                String A = sc.nextLine();
+                System.out.print("명언 >> ");
+                String B = sc.nextLine();
+                System.out.println("작가 >> " + A);
+                System.out.println("명언 >> " + B);
+                break;
             }
         }
-//        System.out.print("명령 >> ");
-//        String M = sc.nextLine();
-//        if(M.equals("종료")) {
-//            System.out.println("종료");
-//        } else {
-//            System.out.println("명언 : " + M);
-//        }
     }
-
-
 }
